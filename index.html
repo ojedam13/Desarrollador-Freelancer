@@ -5,34 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador Freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <header>
         <h1 class="titulo">Martín Ezequiel Ojeda <span>Freelancer</span></h1>
     </header>
-
-    <nav>
-
-        <a href="#">Inicio</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Clientes</a>
-        <a href="#">Contactos</a>
-        
-    </nav>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contactos</a>
+            
+        </nav>
+    </div>
     
-    <section>
-        <h2 class="titulo">Diseño y Desarrollo web <span> Freelancer</span></h2>
-        <p>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="11" r="3" />
-            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-            </svg>
-        </p>
-        <p>Buenos Aires, Argentina</p>
-        <a href="#">Contactar</a>
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y Desarrollo web <span> Freelancer</span></h2>
+ 
+            <div class="ubicacion">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                    
+                <p>Buenos Aires, Argentina</p>
+            </div>
+            <a href="#">Contactar</a>
+        </div>
     </section>
 
     
@@ -41,14 +52,13 @@
 
         <section>
             <h3>Diseño web</h3>
-            <p>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-writing" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-writing" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M20 17v-12c0 -1.121 -.879 -2 -2 -2s-2 .879 -2 2v12l2 2l2 -2z" />
                 <path d="M16 7h4" />
                 <path d="M18 19h-13a2 2 0 1 1 0 -4h4a2 2 0 1 0 0 -4h-3" />
                 </svg>
-            </p>
+            
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat necessitatibus ipsam reiciendis hic ab! Tempore eaque delectus expedita?</p>
         </section>    
         
